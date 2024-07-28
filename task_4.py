@@ -9,6 +9,7 @@ def add_contact(args, contacts):
     name, phone = args
     contacts[name] = phone
     return "Contact added."
+# не думаю що в цьому завадні вартує заморочуватись перевіркою ведення коректних данних))
 
 def change_contact(args, contacts):
     if len(args) != 2:
